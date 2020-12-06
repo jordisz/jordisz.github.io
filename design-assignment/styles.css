@@ -91,6 +91,14 @@ h2 {
     height: 100%;
 }
 
+.ct-container {
+    margin: 0;
+    padding: 0;
+    height: 35%;
+    width: 100%;
+}
+
+
 #container-social {
     margin: 1.5rem 0 1.5rem 0;
     display: flex;
@@ -107,7 +115,9 @@ h2 {
 }
 
 #social-row {
+    margin: 0;
     padding-bottom: 0;
+    position: absolute;
 }
 
 footer {
@@ -126,7 +136,7 @@ footer div {
     list-style: none;
 }
 
-@media (min-width: 1024px), print {
+@media (min-width: 1000px), print {
     #footer-left {
         width: 50%;
         float: left;
