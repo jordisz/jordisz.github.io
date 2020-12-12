@@ -3,10 +3,18 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
+    max-width: 100%;
 }
 
 #header {
+    max-width: 100%;
+    margin-right: 0;
     padding-bottom: 6px;
+}
+
+#header-row {
+    max-width: 100%;
+    margin-right: 0;
 }
 
 #logo img {
@@ -29,13 +37,27 @@ body {
     color: #000000AA;
 }
 
+#cart-col {
+    padding-right: 0;
+    padding-left: 0;
+}
+
 svg {
     padding-left: 4px;
 }
 
 #search {
-    margin-right: 5%;
+    /* margin-right: 5%; */
     padding: 10px 2rem 0 0;
+}
+
+#search-row {
+    margin-left: 2%;
+    padding-left: 10px;
+}
+
+#form {
+    margin-right: 0;
 }
 
 .form-control {
@@ -96,7 +118,7 @@ h1 {
 h2 {
     font-family: 'Pacifico', cursive;
     color: #a2d0cf;
-    padding: 20px 0 20px 0;
+    padding: 0.5rem 0 2rem 0;
 }
 
 .price {
@@ -120,7 +142,7 @@ h2 {
 }
 
 .row {
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
 .col-6 {
@@ -141,6 +163,7 @@ h2 {
 
 #container-social {
     margin: 1.5rem 0 1.8rem 0;
+    padding-bottom: 1rem;
     display: flex;
 }
 
@@ -172,15 +195,17 @@ h2 {
 
 footer {
     background-color: #a2d0cf40;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
 
 footer div {
-    justify-content: center;
-    width: 70%;
-    margin: 0 auto;
-    padding-top: 1.8rem;
+    padding-top: 1.9rem;
+}
+
+#footer-left, #footer-right {
+    min-width: 250px;
 }
 
 footer li {
