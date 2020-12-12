@@ -196,8 +196,10 @@ h2 {
 footer {
     background-color: #a2d0cf40;
     width: 100%;
-    display: flex;
-    justify-content: center;
+}
+
+#footer-row {
+    margin: 0;
 }
 
 footer div {
