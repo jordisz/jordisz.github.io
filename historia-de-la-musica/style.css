@@ -69,7 +69,12 @@ ul {
     max-width: 85%;
     margin: 2.5rem auto;
     text-align: center;
-    border: 22px solid #81acd4;
+    border: 12px solid #81acd4;
+}
+
+.iframe {
+    margin: 2.5rem auto;
+    text-align: center;
 }
 
 .youtube-player {
