@@ -37,7 +37,7 @@ section {
     margin: 1rem auto 1rem auto;
     border-radius: 5px;
     padding: 4.5rem 6rem 4.5rem 4rem;
-    background-color: #ffffff99;
+    background-color: #ffffffaa;
     box-shadow: .5rem .5rem .5rem #444;
     text-align: left;
 }
@@ -56,6 +56,10 @@ p {
 
 ul {
     margin: 1rem 0 1.5rem 4rem;
+}
+
+li {
+    margin-bottom: 1.2rem;
 }
 
 .imatge {
