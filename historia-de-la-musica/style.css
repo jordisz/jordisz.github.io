@@ -22,8 +22,36 @@ body {
     background-color: #d4a981;
 }
 
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 1.4rem 1.8rem;
+    text-decoration: none;
+}
+
+nav ul li.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    nav ul li {
+        float: none;
+    }
+}
+
 h1 {
-    margin: 3.5rem 0 4rem 0;
+    margin-bottom: 4rem;
     padding: 1.2rem 0 2rem 0;
     text-align: center;
     font-family: 'Playfair Display', serif;
