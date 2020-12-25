@@ -87,7 +87,7 @@ section {
     width: 66%;
     margin: 1rem auto 1rem auto;
     border-radius: 5px;
-    padding: 4.5rem 6rem 4.5rem 4rem;
+    padding: 4.5rem 4.2rem 4.5rem 4.2rem;
     background-color: #ffffffaa;
     box-shadow: .5rem .5rem .5rem #444;
     text-align: left;
@@ -134,13 +134,14 @@ li {
     max-width: 85%;
     margin: 2.5rem auto;
     text-align: center;
-    border: 12px solid #81acd4;
+    background-color: #81acd4;
+   /*  border: 2px solid #81acd4; */
 }
 
-.iframe {
+/* .iframe {
     margin: 2.5rem auto;
     text-align: center;
-}
+} */
 
 .youtube-player {
     position: relative;
@@ -149,7 +150,7 @@ li {
     overflow: hidden;
     max-width: 100%;
     background: #000;
-    margin: 5px;
+    /*margin: 5px;*/
 }
 
 .youtube-player iframe {
@@ -195,4 +196,12 @@ li {
     position: absolute;
     background: url('//i.imgur.com/TxzC70f.png') no-repeat;
     cursor: pointer;
+}
+
+.caption {
+    margin: 0;
+    padding: .5rem 0 .5rem 1rem;
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
 }
