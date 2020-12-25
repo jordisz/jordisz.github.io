@@ -22,6 +22,10 @@ body {
     background-color: #d4a981;
 }
 
+nav {
+    background-color: #ffffff22;
+}
+
 nav ul{
     list-style-type: none;
     margin: 0;
@@ -31,6 +35,11 @@ nav ul{
 
 nav ul li {
     float: left;
+    margin-bottom: 0;
+}
+
+nav ul li:hover {
+    background-color: #ffffff22;
 }
 
 nav ul li a {
