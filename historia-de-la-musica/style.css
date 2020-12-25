@@ -70,6 +70,12 @@ section {
     text-align: left;
 }
 
+@media (max-width: 1024px) {
+    section {
+        width: 80%;
+    }
+}
+
 @media (max-width: 720px) {
     section {
         width: 98%;
