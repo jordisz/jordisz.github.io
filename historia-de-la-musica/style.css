@@ -126,6 +126,11 @@ li {
     margin-bottom: 1.2rem;
 }
 
+.icon {
+    transform: translateY(3px);
+    padding: 0 .7rem 0 0;
+}
+
 .imatge {
     max-width: 85%;
     margin: 2.5rem auto 2rem auto;
