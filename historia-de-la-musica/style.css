@@ -22,6 +22,10 @@ body {
     background-color: #d4a981;
 }
 
+a {
+    text-decoration-skip-ink: auto;
+}
+
 .toindex a {
     text-decoration: none;
     text-transform: uppercase;
