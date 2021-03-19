@@ -25,24 +25,33 @@ body {
 #index {
     margin:auto;
     padding:0;
-    max-width: 75vw;
+    min-width: 75vw;
+    max-width: 90vw;
 }
 
-.cap {
+.chap {
     margin: .5rem 0;
     padding: .9rem 0 .4rem 1.4rem;
     border: .2rem solid #d4a98155;
     border-radius: .25rem;
     box-shadow: .1rem .1rem .2rem #eee;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    display: flex;
 }
 
-.cap span {
+.chap-thumb {
+    flex: 0 1 60px;
+    height: 100%;
     vertical-align: middle;
     margin-right: 2rem;
 }
 
-.cap img {
+.chap-name {
+    flex: 0 1 auto;
+    align-self: center;
+}
+
+.chap img {
     border-radius: .5rem;
 }
 
