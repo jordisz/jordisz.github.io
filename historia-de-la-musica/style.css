@@ -23,8 +23,9 @@ body {
 }
 
 #index {
-    margin:0;
+    margin:auto;
     padding:0;
+    max-width: 75vw;
 }
 
 .cap {
