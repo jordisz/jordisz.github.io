@@ -22,6 +22,34 @@ body {
     background-color: #d4a981;
 }
 
+#index {
+    margin:0;
+    padding:0;
+}
+
+.cap {
+    margin: .5rem 0;
+    padding: .9rem 0 .4rem 1.4rem;
+    border: .2rem solid #d4a98155;
+    border-radius: .25rem;
+    box-shadow: .1rem .1rem .2rem #eee;
+    font-size: 2rem;
+}
+
+.cap span {
+    vertical-align: middle;
+    margin-right: 2rem;
+}
+
+.cap img {
+    border-radius: .5rem;
+}
+
+#index a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+    color: #0a0a0a;
+}
+
 a {
     text-decoration-skip-ink: auto;
 }
