@@ -55,7 +55,7 @@ body {
     border-radius: .5rem;
 }
 
-#index a:hover, a:visited, a:link, a:active {
+#index a:hover, #index a:visited, #index a:link, #index a:active {
     text-decoration: none;
     color: #0a0a0a;
 }
@@ -93,7 +93,7 @@ nav ul li:hover {
 
 nav ul li a {
     display: block;
-    text-align: center;
+    /* text-align: center; */
     padding: 1.4rem 1.8rem;
     text-decoration: none;
 }
