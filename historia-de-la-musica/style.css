@@ -18,7 +18,7 @@ body {
     margin: auto;
     font-family: 'Libre Baskerville', serif;
     font-size: 1.6rem;
-    line-height: 2.4rem;
+    line-height: 2.5rem;
     background-color: #d4a981;
 }
 
@@ -161,6 +161,7 @@ section {
 
 p {
     margin-bottom: 1rem;
+    padding: 0 .4rem 0 .4rem;
 }
 
 ul,
