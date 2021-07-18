@@ -18,7 +18,7 @@ body {
     margin: auto;
     font-family: 'Libre Baskerville', serif;
     font-size: 1.6rem;
-    line-height: 2.6rem;
+    line-height: 2.7rem;
     background-color: #d4a981;
 }
 
@@ -137,6 +137,7 @@ h3 {
 
 section {
     width: 65%;
+    max-width: 90ch;
     margin: 1rem auto 1rem auto;
     border-radius: 5px;
     padding: 4.5rem 4.2rem 4.5rem 4.2rem;
